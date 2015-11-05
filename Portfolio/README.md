@@ -1,0 +1,1 @@
+This website provides some details of my journey into programming. It is a work in progress. There is definitely more to come. I utilized a bootstrap template to bring this to frution rather quickly, but have done some extensive tweaking to make it my own. I plan to completely redo the site when I have more time (ha, ha) without the template sometime soon.
