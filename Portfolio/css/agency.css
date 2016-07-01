@@ -311,7 +311,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        margin: 10% 0 10% 0;  
+        margin: 10% 0 10% 0;
         padding-top: 150px;
         padding-bottom: 200px;
     }
@@ -985,9 +985,9 @@ img.gray.img-responsive.img-centered {
 }
 
 .quote {
-    line-height: 12px; 
-    font-size: 50px; 
-    font-weight: bold; 
+    line-height: 12px;
+    font-size: 50px;
+    font-weight: bold;
     font-family:proxima-nova;
     color: #777;
     margin: 10px;
@@ -1004,9 +1004,33 @@ div.twitter {
 
 @media(max-width:1199px) {
     #kudos {display: none;}
-    #recommendations {display: none;}   
-    div.twitter {display: none;} 
+    #recommendations {display: none;}
+    div.twitter {display: none;}
 }
+
+.hatch {
+    animation-name: hatch;
+    -webkit-animation-name: hatch;
+    animation-duration: 20s;
+    -webkit-animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    visibility: visible !important;
+}
+
+.slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+
+
 
 /*
 @media(max-width:991px) {
